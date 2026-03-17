@@ -3,7 +3,7 @@
 A reusable Star Rating Component built with React that allows users to rate items using interactive stars.
 The component is customizable and can be reused in different projects.
 
-##🚀 Features
+## 🚀Features
 
 - Interactive star rating system
 - Hover preview before selecting a rating
@@ -14,14 +14,14 @@ The component is customizable and can be reused in different projects.
 - Reusable component design
 - Callback function to pass the selected rating to parent components
 
-##🛠 Technologies Used
+## 🛠 Technologies Used
 
 - React (Hooks)
 - JavaScript (ES6)
 - PropTypes for type checking
 - SVG icons for stars
 
-##📦 Component Props
+## 📦 Component Props
 
 - Prop	Type	Description
 - maxRating	number	Maximum number of stars
@@ -32,7 +32,7 @@ The component is customizable and can be reused in different projects.
 - defaultRating	number	Default selected rating
 - onSetRating	function	Callback function returning selected rating
 
-##💻 Example Usage
+## 💻 Example Usage
 <StarRating
   maxRating={5}
   size={24}
@@ -58,7 +58,7 @@ function Test() {
   );
 }
 
-##🧠 How It Works
+## 🧠 How It Works
 
 - The component uses React state to manage the selected rating and the temporary hover rating.
 - rating stores the selected value.
@@ -67,7 +67,7 @@ function Test() {
 When the user hovers over a star, the component shows a preview rating.
 When the user clicks a star, the selected rating is saved and optionally sent to the parent component using the onSetRating callback.
 
-##🎯 Learning Concepts Used
+## 🎯 Learning Concepts Used
 
 - React Hooks (useState)
 - Component Reusability
